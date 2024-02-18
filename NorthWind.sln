@@ -21,6 +21,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Repositories", "3.InterfaceAdapters\Gateways\Repositories\NorthWind.Sales.Backend.Repositories\NorthWind.Sales.Backend.Repositories.csproj", "{48256132-0B01-4A72-A7A9-36D5DBA0DC44}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presenters", "Presenters", "{9EC1FB8E-F21B-4DD6-9885-88534FCC4851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Presenters", "3.InterfaceAdapters\Presenters\NorthWind.Sales.Backend.Presenters\NorthWind.Sales.Backend.Presenters.csproj", "{DA404C8A-05AD-4BF1-81A3-7340166CB4D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{E966B2FE-3E56-4370-95DE-0A5081D03DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Controllers", "3.InterfaceAdapters\Controllers\NorthWind.Sales.Backend.Controllers\NorthWind.Sales.Backend.Controllers.csproj", "{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +54,14 @@ Global
 		{48256132-0B01-4A72-A7A9-36D5DBA0DC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48256132-0B01-4A72-A7A9-36D5DBA0DC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48256132-0B01-4A72-A7A9-36D5DBA0DC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090} = {BF63CA8B-2BE5-4D37-9624-B7EE9781177E}
@@ -54,5 +70,9 @@ Global
 		{46D0147D-562A-424D-9CBF-9ED2E1CD8132} = {4B925F5D-8D72-4096-8853-7F2BC54D653A}
 		{3869800C-B9F4-4864-ACC9-9B3CB0B6A62D} = {46D0147D-562A-424D-9CBF-9ED2E1CD8132}
 		{48256132-0B01-4A72-A7A9-36D5DBA0DC44} = {3869800C-B9F4-4864-ACC9-9B3CB0B6A62D}
+		{9EC1FB8E-F21B-4DD6-9885-88534FCC4851} = {4B925F5D-8D72-4096-8853-7F2BC54D653A}
+		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5} = {9EC1FB8E-F21B-4DD6-9885-88534FCC4851}
+		{E966B2FE-3E56-4370-95DE-0A5081D03DA7} = {4B925F5D-8D72-4096-8853-7F2BC54D653A}
+		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E} = {E966B2FE-3E56-4370-95DE-0A5081D03DA7}
 	EndGlobalSection
 EndGlobal
