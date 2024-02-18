@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Enterprise.Business.Rules", "1.Enterprise.Business.Rules", "{BF63CA8B-2BE5-4D37-9624-B7EE9781177E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Common", "1.Enterprise.Business.Rules\NorthWind.Sales.Common\NorthWind.Sales.Common.csproj", "{FA06EC19-F49C-4C46-A0C7-C8484D8E1090}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application.business.Rules", "2.Application.business.Rules", "{0338CCBD-FE07-476E-AE44-CDFBC1E01A79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.BusinessObjects", "2.Application.business.Rules\NorthWind.Sales.Backend.BusinessObjects\NorthWind.Sales.Backend.BusinessObjects.csproj", "{35EE6130-6938-401B-9A42-68D931A99950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +18,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35EE6130-6938-401B-9A42-68D931A99950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35EE6130-6938-401B-9A42-68D931A99950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35EE6130-6938-401B-9A42-68D931A99950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35EE6130-6938-401B-9A42-68D931A99950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090} = {BF63CA8B-2BE5-4D37-9624-B7EE9781177E}
+		{35EE6130-6938-401B-9A42-68D931A99950} = {0338CCBD-FE07-476E-AE44-CDFBC1E01A79}
 	EndGlobalSection
 EndGlobal
