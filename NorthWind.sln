@@ -29,6 +29,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.Controllers", "3.InterfaceAdapters\Controllers\NorthWind.Sales.Backend.Controllers\NorthWind.Sales.Backend.Controllers.csproj", "{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.FrameworksAndDrivers", "4.FrameworksAndDrivers", "{18368547-13E7-4125-8C6F-3B0315B22CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frameworks", "Frameworks", "{886A48C0-B44A-4AF9-AD69-084BF6E41534}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataContexts", "DataContexts", "{05D80619-2BD9-4BFA-9ABF-75E94E6ADF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Backend.DataContexts.EFCore", "4.FrameworksAndDrivers\Frameworks\DataContexts\NorthWind.Sales.Backend.DataContexts.EFCore\NorthWind.Sales.Backend.DataContexts.EFCore.csproj", "{C7C4C6D1-71A0-47AE-A3FE-CA924F857849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +70,10 @@ Global
 		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7C4C6D1-71A0-47AE-A3FE-CA924F857849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C4C6D1-71A0-47AE-A3FE-CA924F857849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C4C6D1-71A0-47AE-A3FE-CA924F857849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C4C6D1-71A0-47AE-A3FE-CA924F857849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FA06EC19-F49C-4C46-A0C7-C8484D8E1090} = {BF63CA8B-2BE5-4D37-9624-B7EE9781177E}
@@ -74,5 +86,8 @@ Global
 		{DA404C8A-05AD-4BF1-81A3-7340166CB4D5} = {9EC1FB8E-F21B-4DD6-9885-88534FCC4851}
 		{E966B2FE-3E56-4370-95DE-0A5081D03DA7} = {4B925F5D-8D72-4096-8853-7F2BC54D653A}
 		{97426D41-104B-4B54-BA76-E8DA0C5CAD6E} = {E966B2FE-3E56-4370-95DE-0A5081D03DA7}
+		{886A48C0-B44A-4AF9-AD69-084BF6E41534} = {18368547-13E7-4125-8C6F-3B0315B22CEC}
+		{05D80619-2BD9-4BFA-9ABF-75E94E6ADF58} = {886A48C0-B44A-4AF9-AD69-084BF6E41534}
+		{C7C4C6D1-71A0-47AE-A3FE-CA924F857849} = {05D80619-2BD9-4BFA-9ABF-75E94E6ADF58}
 	EndGlobalSection
 EndGlobal
