@@ -19,6 +19,12 @@
 # Mono auto generated files
 mono_crash.*
 
+#Ignore sqlite DBs
+*.db
+*.sqlite
+*.db-shm
+*.db-wal
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
