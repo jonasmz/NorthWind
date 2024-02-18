@@ -1,10 +1,12 @@
 namespace NorthWind.Sales.Backend.DataContexts.EFCore.DataContexts
 {
-    internal class NorthWindContext : DbContext
+    public class NorthWindSalesContext(IOptions<DBOptions> dbOptions) : DbContext
     {
+        IOptions<DBOptions> DbOptions => dbOptions;
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=../../../../NortWind.db");
+            optionsBuilder.UseSqlite($"Data Source={DbOptions.Value.ConnectionString}");
         }
 
         public DbSet<Order> Orders { get; set; }
@@ -14,5 +16,6 @@ namespace NorthWind.Sales.Backend.DataContexts.EFCore.DataContexts
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
+
     }
 }
